@@ -1,5 +1,4 @@
 ---
-layout: single
 title: Research
 permalink: /research/
 redirect_from: 
