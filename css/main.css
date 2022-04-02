@@ -16,6 +16,7 @@
   --chocolate: rgb(210, 105, 30);
   --maroon: maroon;
   --lightest-gray: #e9ecef;
+  --black: #000000;
 }
 
 html {
@@ -31,7 +32,7 @@ body {
 }
 
 p, ul, li, table, tr, td, dd, dt {
-  color: var(--graphite);
+  color: var(--black);
   font-size: 1rem;
 }
 
