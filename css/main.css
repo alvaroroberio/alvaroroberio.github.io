@@ -361,7 +361,7 @@ cite {
 
 #wrapper a {
   font-size: inherit;
-  color: var(--bright-blue);
+  color: var(--maroon) !important;
 }
 
 /* Search-box */
