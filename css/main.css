@@ -19,12 +19,12 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Proxima Nova', "Arial", sans-serif;
+  font-family: 'Proxima Nova', "Open Sans", sans-serif;
   color: var(--body-font);
   font-size: 1rem;
   background: var(--body-background);
@@ -76,7 +76,7 @@ h3:after {
 .position-title {
   font-size: 1.1rem;
   color: var(--trench-blue) !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #contact-table td {
