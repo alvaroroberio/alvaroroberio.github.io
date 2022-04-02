@@ -8,19 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
   <link rel="manifest" href="img/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
@@ -42,7 +29,7 @@
   <!-- Main local styles -->
   <link rel="stylesheet" href="css/main.css">
 
-  <title>Jane Smith, PhD</title>
+  <title>Álvaro Robério</title>
 
 </head>
 
@@ -54,74 +41,50 @@
   <!-- main wrapper div -->
   <div class="container px-4" id="wrapper">
 
-    <div class="row mx-3">
+    <div class="row mx-4">
+
       <div class="col-sm-12">
-        <h1>Projects</h1>
-        <p>My recent work has involved {{things I've done}}.</p>
+        <h1 id="page-lead">Research</h1>
+        <p>The works and research are concentrated in the area of Quantitative Methods in Economics, working mainly in Regional, Agricultural, and Climate Economics.</p>
+
+        <p>My specific research areas include:</p>
+
+        <div class="col-sm-12">
+          <ul id="reseach-bullets">
+            <li>Economic impact of climate change in the semiarid region</li>
+            <li>Extreme weather events and economic development</li>
+            <li>Topics applied in economics gives health, education and crime</li>
+          </ul>
+        </div>
+
+        <!-- List of Research interests -->
+
+        <!-- Publication -->
+
+        <h3><span>Select Publications</span></h3>
+
+        <h4>Journal Articles</h4>
+
+        <ul class="journal-articles">
+          <li> Souza Sá, Á. R. (2021). <a class="urls" href="https://g20mais20.bnb.gov.br/revista/index.php/ren/article/view/1210/893"> Technical efficiency and technological heterogeneity of public expenditure on fundamental education in Pernambuco: a two-stage approach.</a> Revista Econômica do Nordeste, 52(3), 33-61.</li>
+          <li> Souza Sá, Á. R. (2021). <a class="urls" href="https://dialnet.unirioja.es/descarga/articulo/8099190.pdf"> Criminality in the State of Pernambuco: A spatial analysis of the determinants of homicide and robberies.</a> Revista de Estudos Sociais, 21(43), 4-27.</li>
+          <li> Souza Sá, Á. R. (2021). <a class="urls" href="https://alvaroroberio.github.io/"> Technical efficiency and technological heterogeneity of public health expenditures in the Northeast: a spatial approach.</a> (to be published in the Revista de Economia (UFPR).)</li>
+          <li> Souza Sá, Á. R, & Branco, D. (2021). <a class="urls" href="https://alvaroroberio.github.io/"> Social fund and infant mortality: evidence of an anti-poverty policy in northeastern Brazil.</a> (to be published with Danyelle Branco.)</li>
+        </ul>
+
+        <h4> Working Papers</h4>
+
+       <ul class="publications-published">
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">TThe effect of economic development on crime: empirical evidence for the municipalities of Pernambuco. </a></li>
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">Drought shocks and agriculture: evidence for municipal economies in Northeast Brazil. </a></li>
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">Drought shocks and crime in the Northeast.</a> (with Danyelle Branco.)</li>
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">Extreme events of drought and violence against women in the Northeast.</a> (with Danyelle Branco.)</li>
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">Economic growth and conditional convergence: an empirical contribution to the long-term economic growth of the Brazilian semiarid region.</a> (with Sergiany Lima, Felipe Luiz, Adler Vinicius and Thais de Lima.)</li>
+       <li><a class="urls" href="https://alvaroroberio.github.io/research.html">Vulnerability of the semi-arid region of Pernambuco and persistent economic inequalities: an analysis of economic growth and conditional convergence clubs.</a> (with Sergiany Lima, Felipe Luiz, Adler Vinicius and Thais de Lima.)</li>
+        </ul>
+
       </div>
       <!-- col-sm-12 -->
-
-      <div class="col-sm-10 offset-sm-1">
-        <form id="search-box">
-          <div class="form-group">
-            <div class="input-group border-0">
-              <div class="input-group-prepend">
-                <span class="input-group-text border-0"><i class="fa fa-search fa-fw fa-2x graphite"></i></span>
-              </div>
-              <input type="text" class="form-control form-control-lg" aria-label="" name="brainstorm-search" id="search-input" placeholder="Search projects">
-              <div class="input-group-append" id="search-refresh-button">
-                <span class="input-group-text border-0"><i class="fa fa-sync-alt opacity-half bright-blue fa-fw fa-2x pointer sm-del"></i></span>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-      <!-- .col-sm-8 -->
-
-      <div class="col-sm-10 offset-sm-1 text-center" id="filter-buttons">
-
-        <!-- Filter buttons -->
-        <button id="all" class="btn btn-sm btn-primary mr-3 active">
-          All
-        </button>
-        <button id="type1" class="btn btn-sm btn-primary mr-3">
-          Web
-        </button>
-        <button id="type2" class="btn btn-sm btn-primary mr-3">
-          Design
-        </button>
-        <button id="type3" class="btn btn-sm btn-primary mr-3">
-          Games
-        </button>
-        <button id="type4" class="btn btn-sm btn-primary mr-3">
-          Tutorials
-        </button>
-
-
-      </div>
-      <!-- col-sm-10 -->
-    </div>
-    <!-- .row -->
-
-    <div class="row" id="projects-div">
-
-      <!-- Write the cards into the page -->
-      <script id="all-the-projects" type="text/template">
-
-        {{#projects}}
-          <div class="card-container col-sm-12 col-md-6 col-lg-4 col-xl-4">
-            <div class="card shadow-sm {{{type}}}" data-url="{{{link}}}">
-              <img src="{{{image}}}" class="card-img-top" alt="...">
-              <div class="card-body border-top" data-resource-type="{{{type}}}">
-                <p class="text-center card-action"><span>{{{icon}}}</span></p>
-                <h5 class="project-title">{{name}}</h5>
-                {{description}}
-              </div>
-            </div>
-          </div>
-        {{/projects}}
-      </script>
-
     </div>
     <!-- .row -->
 
@@ -134,17 +97,16 @@
   <!-- Back to top button -->
   <a role="button" id="back-to-top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-angle-up" aria-hidden="true"></i></a>
 
-  <div class="modal fade" id="modal-map-to-office" tabindex="-1" role="dialog" aria-labelledby="office-map-modal-label" aria-hidden="true">
+  <div class="modal fade" id="articulation-modal" tabindex="-1" role="dialog" aria-labelledby="office-map-modal-label" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="office-map-modal-label">Map to my office</h5>
+          <h5 class="modal-title" id="office-map-modal-label">Articulation, n.</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span aria-hidden="true"><i class="fa fa-times-circle bright-blue"></i></span>
           </button>
         </div>
-        <div class="modal-body">
-          <img class="image-fluid dx-auto" src="img/map-to-my-office.png" alt="map to my office">
+        <div class="modal-body p-4">
         </div>
       </div>
     </div>
@@ -156,9 +118,6 @@
   <!-- jquery ui -->
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <!-- Mustache.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
-
   <!-- popper minified -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
@@ -167,7 +126,6 @@
 
   <!-- Main local scripts -->
   <script src="js/main.js"></script>
-  <script src="js/projects.js"></script>
 
   <script>
     $(function() {
@@ -176,15 +134,8 @@
       $("#page-navbar").load("page-navbar.html", function() {
 
         $("#me").removeClass("active");
-        $("#projects").addClass("active");
+        $("#research").addClass("active");
 
-      });
-
-
-      // Redirect to URL on data-url attr
-      $(document).on("click", "[data-url]", function() {
-        var url = $(this).data("url");
-        window.open(url);
       });
 
     });
@@ -192,5 +143,4 @@
   </script>
 
 </body>
-
 </html>
