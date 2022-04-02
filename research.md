@@ -1,3 +1,12 @@
+---
+layout: single
+title: Research
+permalink: /research/
+redirect_from: 
+  - /research/
+  - /research.html
+---
+
 ## Publications
 
 1. [Technical efficiency and technological heterogeneity of public expenditure on fundamental education in Pernambuco: a two-stage approach](https://g20mais20.bnb.gov.br/revista/index.php/ren/article/view/1210/893) (with Souza Sá, Á. R. (2021), *Revista Econômica do Nordeste*, 52(3), 33-61.)
