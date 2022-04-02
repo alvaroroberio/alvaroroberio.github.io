@@ -295,6 +295,7 @@ h3:after {
 
 .navbar-brand {
   font-size: 1.5rem !important;
+  font-weight: 600;
 }
 
 #page-lead {
