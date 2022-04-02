@@ -1,7 +1,7 @@
 :root {
   /* root color variables */
   --bright-blue: #007bff;
-  --nd-blue: #20364c;
+  --nd-red: #ad5050;
   --body-background: #f6f7fb;
   --ghost-white: ghostwhite;
   --alice-blue: aliceblue;
@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 body {
@@ -36,11 +36,11 @@ p, ul, li, table, tr, td, dd, dt {
 }
 
 h1, h2, h3 {
-  color: var(--maroon) !important;
+  color: #ad5050 !important;
 }
 
 h4, h5, h6 {
-  color: var(--trench-blue) !important;
+  color: #ad5050 !important;
 }
 
 h4 {
@@ -74,9 +74,9 @@ h3:after {
 }
 
 .position-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--trench-blue) !important;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 #contact-table td {
