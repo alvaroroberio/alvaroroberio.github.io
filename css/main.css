@@ -28,7 +28,7 @@ body {
   font-family: 'Proxima Nova', "Open Sans", sans-serif;
   color: var(--body-font);
   font-size: 1rem;
-  background: var(--maroon) !important;
+  background: var(--body-background) !important;
 }
 
 p, ul, li, table, tr, td, dd, dt {
